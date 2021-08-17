@@ -8,5 +8,6 @@ COPY LICENSE \
 
 RUN pip install --pre -r /dest/requirements.txt
 
+RUN chmod +x /dest/entrypoint.sh
 ENTRYPOINT ["/dest/entrypoint.sh"]
 CMD []
