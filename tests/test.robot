@@ -10,3 +10,5 @@ Keyword
 
 *** Test Cases ***
 *** Tasks ***
+*** Variables ***
+${VAR}    1
