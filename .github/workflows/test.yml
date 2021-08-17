@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Robocop action
-        uses: bhirsz/actions-robocop@v2
+        uses: bhirsz/actions-robocop@master
