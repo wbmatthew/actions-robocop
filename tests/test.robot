@@ -1,6 +1,7 @@
 *** Settings ***
 Library  stuff.py
 
+
 *** Keywords ***
 Keyword
     No Operation
@@ -10,5 +11,7 @@ Keyword
 
 *** Test Cases ***
 *** Tasks ***
+
+
 *** Variables ***
 ${VAR}    1
