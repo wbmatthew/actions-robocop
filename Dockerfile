@@ -3,9 +3,10 @@ FROM python:3.9-alpine
 COPY LICENSE \
         README.md \
         entrypoint.sh \
-        requirements.txt
+        requirements.txt \
+        dest/
 
-RUN pip install --pre -r /code/requirements.txt
+RUN pip install --pre -r /dest/requirements.txt
 
-ENTRYPOINT ["/code/entrypoint.sh"]
+ENTRYPOINT ["/dest/entrypoint.sh"]
 CMD []
