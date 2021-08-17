@@ -1,6 +1,7 @@
 #!/bin/sh
 
 exec 5>&1
+echo "Generate robocop-matcher:"
 res=`{ { robocop --generate-action-matcher; echo $? 1>&4; } 1>&5; } 4>&1`
 echo "::add-matcher::${RUNNER_TEMP}/robocop-matcher.json"
 
