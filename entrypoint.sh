@@ -2,6 +2,7 @@
 
 robocop --generate-action-matcher
 ls -a
+
 echo "::add-matcher::${RUNNER_TEMP}/robocop-matcher.json"
 
 echo "Robocop scan:"
