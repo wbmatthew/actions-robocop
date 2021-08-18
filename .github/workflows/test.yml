@@ -15,4 +15,4 @@ jobs:
 
       - name: Run Robocop action
         uses: bhirsz/actions-robocop@main
-        working-directory: tests
+
