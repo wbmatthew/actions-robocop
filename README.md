@@ -6,5 +6,5 @@ Runs Github Action that lint your Robot Framework code with Robocop: https://git
 Usage
 -----
 ```yaml
-uses: bhirsz/actions-robocop@main
+uses: wbmatthew/actions-robocop@main
 ```
