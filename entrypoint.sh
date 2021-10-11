@@ -14,4 +14,4 @@ else
 fi
 echo "::remove-matcher owner=robocop-matcher::"
 
-exit $res
+exit 0
