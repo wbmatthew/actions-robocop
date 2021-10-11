@@ -1,8 +1,6 @@
 #!/bin/sh
 
-robocop --generate-action-matcher --argumentfile robocopArgs.txt
-
-echo "::add-matcher::robocop-matcher.json"
+robocop --argumentfile robocopArgs.txt
 
 echo "Robocop scan:"
 exec 5>&1
