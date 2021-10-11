@@ -1,6 +1,6 @@
 #!/bin/sh
 
-robocop --argumentfile /dest/robocopArgs.txt
+robocop --configure missing-doc-suite:severity:i --configure todo-in-comment:severity:i --exclude line-too-long --exclude too-many-calls-in-keyword --exclude too-many-calls-in-test-case --exclude too-long-test-case --exclude too-long-keyword
 
 echo "Robocop scan:"
 exec 5>&1
