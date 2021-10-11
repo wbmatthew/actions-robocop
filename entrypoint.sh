@@ -1,6 +1,6 @@
 #!/bin/sh
 
-robocop --generate-action-matcher
+robocop --generate-action-matcher -c line-too-long:severity:i -c too-many-calls-in-keyword:i -c too-long-test-case:i -c too-long-keyword:i
 
 echo "::add-matcher::robocop-matcher.json"
 
@@ -14,4 +14,4 @@ else
 fi
 echo "::remove-matcher owner=robocop-matcher::"
 
-exit 0
+exit $res
