@@ -1,6 +1,6 @@
 #!/bin/sh
 
-robocop --argumentfile robocopArgs.txt
+robocop --argumentfile /dest/robocopArgs.txt
 
 echo "Robocop scan:"
 exec 5>&1
