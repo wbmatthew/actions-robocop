@@ -10,6 +10,5 @@ if [ "$res" = "0" ]; then
 else
     echo "Robocop found one or more problems"
 fi
-echo "::remove-matcher owner=robocop-matcher::"
 
 exit $res
