@@ -1,6 +1,6 @@
 #!/bin/sh
 
-robocop --generate-action-matcher -c line-too-long:severity:i -c too-many-calls-in-keyword:i -c too-long-test-case:i -c too-long-keyword:i
+robocop --generate-action-matcher --argumentfile robocopArgs.txt
 
 echo "::add-matcher::robocop-matcher.json"
 
